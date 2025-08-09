@@ -30,7 +30,6 @@ def clear_txt():
 
 if __name__ == '__main__':
     while True:
-        time.sleep(3)
         data = get_data()
         if data == [] or data == '':
             continue
@@ -40,3 +39,4 @@ if __name__ == '__main__':
 
             time.sleep(10)
             clear_txt()
+        time.sleep(3)
